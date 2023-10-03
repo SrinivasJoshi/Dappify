@@ -1,8 +1,8 @@
-#  Dappify
+# Dappify
 
 Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to simplify the development of decentralized applications (dApps) using Next.js 13.
 
-###  Why Use This :
+### Why Use This :
 
 - **Next.js 13 Advantage**: Stay ahead of the curve by utilizing the latest Next.js features.The integrated **App Router** simplifies navigation
 
@@ -14,28 +14,21 @@ Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to si
 
 - **TypeScript Support**: Take advantage of TypeScript for enhanced code quality, better tooling, and improved developer experience.
 
-  
-  
+### Setup and use
 
-###  Setup and use
+1.  **Clone the Repository**:
 
-  
+        git clone <repository_url>
 
-1. **Clone the Repository**:
+2.  **Change Directory**:
 
-		git clone <repository_url>
+        cd Dappify
 
-2. **Change Directory**:
+3.  **Install Dependencies**:
 
-		cd Dappify
+        npm install
 
-3. **Install Dependencies**:
-
-		npm install
-
-  
-
-4. **Configure WalletConnect Cloud**:
+4.  **Configure WalletConnect Cloud**:
 
 - Obtain a `projectId` from [WalletConnect Cloud](https://cloud.walletconnect.com/).
 
@@ -44,11 +37,10 @@ Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to si
 
 - Optionally also configure the chain as shown in `utils/providers.tsx`
 
-  
+5.  **Start dev server** :
 
-5. **Start dev server** :
+        npm run dev
 
-		npm run dev
-6. **Format code** :
+6.  **Format code** :
 
-		npm run format
+        npm run format
