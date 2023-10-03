@@ -20,8 +20,8 @@ const { chains, publicClient } = configureChains(
 
 const { connectors } = getDefaultWallets({
   // ADD YOUR APP NAME AND PROJECT ID
-  appName: "Vigilante",
-  projectId: "e25b6bd0f1976d16cb62749b0c7cb0a0",
+  appName: "YOUR_APP_NAME",
+  projectId: "PROJECT_ID",
   chains,
 });
 
