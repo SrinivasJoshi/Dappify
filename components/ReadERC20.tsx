@@ -19,10 +19,10 @@ export default function ReadERC20() {
     functionName: "symbol",
   });
 
-  const { data: totalSupply,refetch } = useContractRead({
+  const { data: totalSupply, refetch } = useContractRead({
     address: contractAddress,
     abi: contractABI,
-    functionName: "totalSupply",  
+    functionName: "totalSupply",
     watch: true,
   });
 
