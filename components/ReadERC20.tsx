@@ -52,7 +52,7 @@ export default function ReadERC20() {
         </p>
         <p className="mx-2 text-center p-2 border-2 border-secondary rounded-md">
           Total Supply <br />
-          {formatEther(totalSupply)}
+          {totalSupply ? formatEther(totalSupply) : "---"}
         </p>
         <p className="mx-2 text-center p-2 border-2 border-secondary rounded-md">
           Your balance <br />
