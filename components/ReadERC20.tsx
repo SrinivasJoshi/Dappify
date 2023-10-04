@@ -36,10 +36,11 @@ export default function ReadERC20() {
 
   return (
     <ClientOnly>
-      <h2 className="text-white text-xl mb-3 text-center">
-        To view the code below, check{" "}
+      <h2 className="text-white text-xl mb-4 text-center">
+        To view the code below, check {" "}
         <span className="bg-zinc-800 p-1 rounded-md">
-          components/ReadERC20.tsx{" "}
+          <a href="https://github.com/SrinivasJoshi/Dappify/blob/main/components/ReadERC20.tsx" className="underline-none">components/ReadERC20.tsx
+            </a>
         </span>
       </h2>
       <div className="flex px-5 justify-evenly items-center my-3 text-xl text-secondary font-semibold">
