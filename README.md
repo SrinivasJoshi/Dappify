@@ -12,6 +12,8 @@ Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to si
 
 - **Effortless Contract Integration**: **Wagmi** simplifies smart contract integration, reducing the complexity of Ethereum interactions and allowing you to focus on building your dApp's core functionality.
 
+-- **Ethers.js Compatibility**: I prefer using Ethers.js in some "write to chain" use cases and don't want to deal with Wagmi hooks.Ethers.js provides a powerful alternative for Ethereum interactions.
+
 - **TypeScript Support**: Take advantage of TypeScript for enhanced code quality, better tooling, and improved developer experience.
 
 ### Setup and use
@@ -35,7 +37,7 @@ Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to si
 - Add the obtained `projectId` and the desired `appName` in the provided space in the code.
 - Open `utils/providers.tsx` in your code editor.
 
-- Optionally also configure the chain as shown in `utils/providers.tsx`
+- Optionally also configure the chain as shown in `utils/providers.tsx`.
 
 5.  **Start dev server** :
 

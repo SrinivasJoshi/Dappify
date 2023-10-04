@@ -15,10 +15,10 @@ const Navbar = ({ setIsConn }) => {
   return (
     <nav className="w-full flex justify-between items-center p-3 bg-primary fixed">
       <Link href="/">
-        <h1 className="text-lg text-white">Logo</h1>
+        <img src="/images/logo.png" alt="Site Logo" className="w-32" />
       </Link>
 
-      <ConnectButton showBalance={false} chainStatus="none" />
+      <ConnectButton showBalance={false} />
     </nav>
   );
 };

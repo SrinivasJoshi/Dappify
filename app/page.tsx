@@ -1,4 +1,13 @@
 import ReadERC20 from "@/components/ReadERC20";
+import WriteERC20 from "@/components/WriteERC20";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Dappify",
+  description: "Nextjs.13 dApp Dev Kit",
+  icons: {
+    icon: "images/icon.png",
+  },
+};
 
 export default function Home() {
   return (
@@ -7,10 +16,12 @@ export default function Home() {
         Dappify
       </h1>
 
-      <p>
-              This example app shows you how to use wagmi for a basic ERC20 contract :{" "}
+      <p className="text-white texl-3xl font-semibold">
+        This example app shows you how to use wagmi for a basic ERC20 contract :{" "}
       </p>
-            <ReadERC20 />
+
+      <ReadERC20 />
+      <WriteERC20 />
     </section>
   );
 }
