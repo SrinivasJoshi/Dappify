@@ -36,7 +36,8 @@ export default function WriteERC20() {
         {isConnected ? (
           <button
             onClick={() => write?.()}
-            className="tex-2xl px-2 py-1 font-semibold bg-secondary text-primary rounded-md"
+            className="tex-2xl px-2 py-1 font-semibold bg-secondary text-primary rounded-md cursor-pointer disabled:cursor-not-allowed"
+            disabled={isLoading}
           >
             Mint 100 MTK
           </button>
@@ -46,7 +47,7 @@ export default function WriteERC20() {
           </p>
         )}
         {isLoading && (
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center mt-3">
             <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-secondary"></div>
           </div>
         )}

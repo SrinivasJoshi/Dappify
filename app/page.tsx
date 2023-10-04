@@ -16,7 +16,7 @@ export default function Home() {
         Dappify
       </h1>
 
-      <p className="text-white texl-3xl font-semibold">
+      <p className="text-white texl-4xl font-semibold">
         This example app shows you how to use wagmi for a basic ERC20 contract :{" "}
       </p>
 
