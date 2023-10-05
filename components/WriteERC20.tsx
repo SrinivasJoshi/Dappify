@@ -30,7 +30,11 @@ export default function WriteERC20() {
         <h2 className="text-white text-xl mb-3 text-center">
           To view the code below, check{" "}
           <span className="bg-zinc-800 p-1 rounded-md">
-          <a href="https://github.com/SrinivasJoshi/Dappify/blob/main/components/WriteERC20.tsx" className="underline-none">components/WriteERC20.tsx
+            <a
+              href="https://github.com/SrinivasJoshi/Dappify/blob/main/components/WriteERC20.tsx"
+              className="underline-none"
+            >
+              components/WriteERC20.tsx
             </a>
           </span>
         </h2>
