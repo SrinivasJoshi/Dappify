@@ -6,7 +6,7 @@
 Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to simplify the development of decentralized applications (dApps) using Next.js 13.
 
 > **Info**
-> If you are not comfortable with Next.js checkout [Reactify](https://github.com/SrinivasJoshi/Reactify)
+> If you are not comfortable with Next.js, consider exploring [Reactify](https://github.com/SrinivasJoshi/Reactify)
 
 ###  Why Use This :
 
@@ -169,5 +169,4 @@ If you're working with Next.js 13, you're likely to encounter various challenges
 ####  New updates :
 
   
-
-I'll be releasing a new dApp template using React, React Router, and Ethers. It's designed to be a reliable choice for integrating backend functionality with Express and is not susceptible to potential changes like Next.js 13. This template will primarily utilize Ethers.js for blockchain interactions.
+I'll be releasing a new dApp template using React, React Router, and Wagmi. It's designed to be a reliable choice for integrating backend functionality with Express and is not susceptible to potential changes like Next.js 13. 
