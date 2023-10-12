@@ -70,13 +70,9 @@ Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to si
 
 - Obtain a `projectId` from [WalletConnect Cloud](https://cloud.walletconnect.com/).
 
-  
-
-- Add the obtained `projectId` and the desired `appName` in the provided space in the code.
-
 - Open `utils/providers.tsx` in your code editor.
 
-  
+- Add the obtained `projectId` and the desired `appName` in the provided space in the code.
 
 - Optionally also configure the chain as shown in `utils/providers.tsx`.
 
@@ -163,10 +159,3 @@ If you're working with Next.js 13, you're likely to encounter various challenges
 1. This article helped me a lot - [Link](https://codingwithmanny.medium.com/understanding-hydration-errors-in-nextjs-13-with-a-web3-wallet-connection-8155c340fbd5#:~:text=If%20the%20server%2Dside%20state,difference%20between%20the%20two%20DOM.).
 
 2. Next.js (v13) docs - [Link](https://nextjs.org/docs/app/building-your-application)
-
-  
-
-####  New updates :
-
-  
-I'll be releasing a new dApp template using React, React Router, and Wagmi. It's designed to be a reliable choice for integrating backend functionality with Express and is not susceptible to potential changes like Next.js 13. 
