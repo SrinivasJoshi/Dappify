@@ -5,7 +5,8 @@
 
 Dappify is a Nextjs.13 dApp Development Kit, an advanced template designed to simplify the development of decentralized applications (dApps) using Next.js 13.
 
-  
+> **Info**
+> If you are not comfortable with Next.js checkout [Reactify](https://github.com/SrinivasJoshi/Reactify)
 
 ###  Why Use This :
 
